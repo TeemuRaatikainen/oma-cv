@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etunimi Sukunimi – CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Etunimi Sukunimi</h1>
+      <nav class="space-x-4">
+        <a href="#osaaminen" class="text-gray-600 hover:text-gray-900">Osaaminen</a>
+        <a href="#kokemus" class="text-gray-600 hover:text-gray-900">Kokemus</a>
+        <a href="#koulutus" class="text-gray-600 hover:text-gray-900">Koulutus</a>
+        <a href="#portfolio" class="text-gray-600 hover:text-gray-900">Portfolio</a>
+        <a href="#yhteystiedot" class="text-gray-600 hover:text-gray-900">Yhteystiedot</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold">Tervetuloa kotisivuilleni</h2>
+      <p class="mt-4 text-lg text-gray-700">Olen [Etunimi], [ammatti] joka on intohimoinen [aiheista, esim. ohjelmoinnista, suunnittelusta jne.].</p>
+    </div>
+  </section>
+
+  <!-- Osaaminen -->
+  <section id="osaaminen" class="max-w-4xl mx-auto py-12">
+    <h3 class="text-2xl font-semibold mb-6 border-b pb-2">Osaaminen</h3>
+    <ul class="list-disc list-inside space-y-2 text-gray-700">
+      <li>Ohjelmointikielet: HTML, CSS, JavaScript, Python, jne.</li>
+      <li>Frameworkit: React, Node.js, Django, jne.</li>
+      <li>Versionhallinta: Git & GitHub</li>
+      <li>UX/UI-suunnittelu, prototypointi (Figma, Adobe XD)</li>
+    </ul>
+  </section>
+
+  <!-- Kokemus -->
+  <section id="kokemus" class="max-w-4xl mx-auto py-12">
+    <h3 class="text-2xl font-semibold mb-6 border-b pb-2">Työkokemus</h3>
+    <div class="space-y-6 text-gray-700">
+      <div>
+        <h4 class="font-bold">Yritys Oy – Ohjelmistokehittäjä</h4>
+        <p class="text-sm text-gray-500">01/2022 – 04/2024</p>
+        <p>Vastuullani oli verkkosovellusten kehittäminen Reactilla ja Node.js:llä.</p>
+      </div>
+      <!-- Lisää tarvittaessa lisää kokemuksia -->
+    </div>
+  </section>
+
+  <!-- Koulutus -->
+  <section id="koulutus" class="max-w-4xl mx-auto py-12">
+    <h3 class="text-2xl font-semibold mb-6 border-b pb-2">Koulutus</h3>
+    <div class="space-y-4 text-gray-700">
+      <div>
+        <h4 class="font-bold">Yliopisto – Tietojenkäsittelytiede</h4>
+        <p class="text-sm text-gray-500">2018 – 2021</p>
+        <p>Valmistuin kandidaatiksi tietojenkäsittelytieteestä erinomaisin arvosanoin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="max-w-4xl mx-auto py-12">
+    <h3 class="text-2xl font-semibold mb-6 border-b pb-2">Portfolio</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded shadow p-4">
+        <h4 class="font-bold">Projekti 1</h4>
+        <p class="text-sm text-gray-600">React-sovellus, jossa käytettiin API-rajapintoja ja tilanhallintaa.</p>
+      </div>
+      <div class="bg-white rounded shadow p-4">
+        <h4 class="font-bold">Projekti 2</h4>
+        <p class="text-sm text-gray-600">Django-pohjainen verkkopalvelu käyttäjien hallintaan.</p>
+      </div>
+      <!-- Lisää projekteja -->
+    </div>
+  </section>
+
+  <!-- Yhteystiedot -->
+  <section id="yhteystiedot" class="bg-blue-50 py-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4">Yhteystiedot</h3>
+      <p class="text-gray-700">Sähköposti: <a href="mailto:sinun.email@domain.com" class="text-blue-600 hover:underline">sinun.email@domain.com</a></p>
+      <p class="text-gray-700">LinkedIn: <a href="https://linkedin.com/in/kayttajatunnus" class="text-blue-600 hover:underline" target="_blank">linkedin.com/in/kayttajatunnus</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center p-4 text-sm text-gray-600">
+    &copy; 2025 Etunimi Sukunimi. Kaikki oikeudet pidätetään.
+  </footer>
+
+</body>
+</html>
